@@ -1,11 +1,14 @@
 // Context'i kullanmak için react altındaki useContext hookunu kullanacağız.
-import React, { useContext } from 'react'
+//2. ilgili context altında hzırladığımız hooku kullanacağımız için useContext hookunu silebildik
+// import React from 'react'
+// ----import React'a da gerek kalmadı.
 //ilgili contexti import edeceğiz
-import LangContext from '../contexts/LangContext';
+//2. ilgili context altından hazırladığımız hooku çağırdık.
+import { useLang } from '../contexts/LangContext';
 
 function ChangeLang() {
 
-    const { lang, setLang } = useContext(LangContext);
+    const { lang, setLang } = useLang();
 
     return (
         <div>
