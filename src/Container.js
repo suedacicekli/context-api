@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import ChangeTheme from './components/ChangeTheme';
-import Footer from './components/Footer';
+//import Footer from './components/Footer';
 import ChangeLang from './components/ChangeLang';
 import ThemeContext from './contexts/ThemeContext';
 import './styles.css';
@@ -14,7 +14,7 @@ function Container() {
             <ChangeTheme />
             <hr />
             <ChangeLang />
-            <Footer />
+
         </div>
     )
 }
