@@ -23,5 +23,5 @@ export const useLang = () => {
     }
     return context;
 }
-
+//artık export defaulta ihtiyacımız kalmadığı için kaldırabiliriz
 export default LangContext;

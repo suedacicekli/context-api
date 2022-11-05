@@ -34,4 +34,5 @@ export const useTheme = () => {
     return context;
 }
 
+//artık export defaulta ihtiyacımız kalmadığı için kaldırabiliriz.
 export default ThemeContext;
